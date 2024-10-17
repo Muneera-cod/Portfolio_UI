@@ -6,7 +6,7 @@ import sasslogo from '../../../assets/images/logo-5.png'
 import spotifylogo from '../../../assets/images/logo-6.png'
 function LogosBottom() {
   return (
-    <div className='px-20 py-12 bg-[#F8F8F8] grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-5 justify-items-center gap-y-3'>
+    <div className='px-20 py-12 bg-[#F8F8F8] grid sm:grid-cols-1  lg:grid-cols-5 justify-items-center gap-y-3'>
       <img src={jquerylogo} width={'267.123px'} height={'50px'} className='opacity-50'/>
       <img src={wordPresslogo} width={'267.123px'} height={'50px'} className='opacity-50'/>
       <img src={lesslogo} width={'267.123px'} height={'50px'} className='opacity-50'/>

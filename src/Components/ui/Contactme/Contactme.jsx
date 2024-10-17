@@ -4,7 +4,7 @@ import Form from './Form'
 function Contactme() {
   return (
     <div className='flex flex-col bg-markClr sm:px-12 md:px-20 py-24 min-h-1/2 min-w-screen gap-[60px] font-worksans text-othrtext'>
-      <div className='text-center'>
+      <div className='text-center gap-[24px] flex flex-col'>
         <p className='text-[#E9EFFF] text-[20px] tracking-widest font-[600] uppercase'>contact me</p>
         <h1 className='text-[50px] font-[700] leading-[50px] text-white'>Request Free Consultancy</h1>
       </div>

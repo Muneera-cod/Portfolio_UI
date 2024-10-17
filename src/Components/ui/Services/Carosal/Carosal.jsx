@@ -25,7 +25,7 @@ function Carosal() {
     </div>
  </div>
 
-    <div className='flex flex-row gap-[30px] overflow-hidden bg-red-50'>
+    <div className='flex flex-row gap-[30px] overflow-hidden '>
     {carosalData.slice(carosal).map((item)=>{
         return(
         <div key={ item.id } className='sm:min-h-80 md:min-h-fit sm:min-w-full md:min-w-[406px] md:max-w-[406px] p-[30px] flex flex-col gap-[10px]  border-2 border-markClr hover:bg-white hover:text-othrtext text-white bg-markClr rounded-[10px]' onMouseEnter={()=>{setHover(item.id)}} onMouseLeave={()=>{setHover(null)}}>
