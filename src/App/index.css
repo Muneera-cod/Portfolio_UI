@@ -112,10 +112,10 @@ line-height: normal;
 }
 
 
-@media (min-width:400px) {
+@media (min-width:300px) {
     .menunav{
         position: fixed;
-        top:15%;
+        top:14%;
         left:20%;
        }
       
