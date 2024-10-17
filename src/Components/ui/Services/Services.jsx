@@ -4,7 +4,7 @@ import Achievement from './Achievements/Achievement';
 function Services() {
   return (
   <>
-  <div className='flex flex-col sm:px-12 md:px-20 py-24 min-h-screen min-w-screen gap-[30px] font-worksans text-othrtext'>
+  <div id='services' className='flex flex-col sm:px-12 md:px-20 py-24 min-h-screen min-w-screen gap-[30px] font-worksans text-othrtext'>
      <div className='flex flex-col text-center gap-[15px] sm:px-6 md:px-20 pb-[30px]'>
         <h3 className='text-markClr text-[20px] font-[600] tracking-widest '>Services</h3>
         <h1 className='text-[50px] font-[700] leading-[50px] '>Exploring My Design <span className='text-markClr'>Skills</span></h1>

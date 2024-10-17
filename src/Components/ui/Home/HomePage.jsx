@@ -6,7 +6,7 @@ import photolarge from '../../../assets/images/photolarge.png'
 import LogosBottom from './LogosBottom'
 function HomePage() {
   return (
-  <div className='flex flex-col min-h-screen'>
+  <div id='home' className='flex flex-col min-h-screen'>
       <div className='flex sm:flex-col lg:flex-row sm:px-12 md:px-20 py-24  gap-24'>
         <div className='basis-1/2 font-worksans flex flex-col gap-[50px]'>
           <div className=''>

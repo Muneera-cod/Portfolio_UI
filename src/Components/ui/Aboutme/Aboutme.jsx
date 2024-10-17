@@ -5,7 +5,7 @@ import { Progress } from '@mantine/core';
 import  aboutme  from '../../../assets/images/aboutmeProfile.png'
 function Aboutme({ scrollPosition}) {
   return (
-    <div className='flex sm:flex-col lg:flex-row sm:px-12 md:px-20 py-24 min-h-screen min-w-screen gap-8 font-worksans text-othrtext'>
+    <div id='aboutme' className='flex sm:flex-col lg:flex-row sm:px-12 md:px-20 py-24 min-h-screen min-w-screen gap-8 font-worksans text-othrtext'>
         <div className='basis-1/2  py-6 flex items-center justify-center'>
         <LazyLoadImage effect='blur' alt='about me page image' src={aboutme}  scrollPosition={scrollPosition} className='aboutme'/>
         </div>
