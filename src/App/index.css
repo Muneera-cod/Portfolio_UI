@@ -1,0 +1,122 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    box-sizing: border-box;
+}
+header{
+   position: sticky;
+   top:2px;
+   z-index: 2;
+   box-shadow:2px 2px 5px 1px #f0f0f0;
+}
+.logotitle{
+    
+    font-family: "Zen Kaku Gothic Antique";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; /* 100% */
+}
+.homepageImage{
+    /* width: 553px;
+    height: 560px;
+    flex-shrink: 0; */
+    border-radius: 300px;
+    border: 1px solid #F2F2F2;
+    /* background: url(<path-to-image>) lightgray 50% / cover no-repeat; */
+    object-fit: contain;
+}
+.aboutme{
+    /* width: 553px;
+    height: 560px;
+    flex-shrink: 0;
+    border-radius: 300px; */
+    border: 1px solid #F2F2F2;
+    /* background: url(<path-to-image>) lightgray 50% / cover no-repeat; */
+    border-radius: 300px;
+
+    object-fit: contain;
+}
+.bttnfont{
+    color: var(--color-white-solid, #FFF);
+font-family: "Work Sans";
+font-size: clamp(14px,3vw,20px);
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.listTransform{
+    transition: transform 0.2s linear;
+    
+ &:hover{
+    transform: scale(1.2);
+   
+}
+}
+
+.menunav{
+    position: fixed;
+    top:15%;
+    left:45%;
+    box-shadow:2px 2px 5px 2px #a29d9d;
+   }
+ 
+.aboutmebtns{
+        display: flex;
+        height: 50px;
+        padding: 17px 33px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 20px;
+}
+
+.skillsh1{
+    color: #222;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; 
+}
+
+
+@media (max-width:1000px) {
+    .logotitle{
+      
+        font-size: 20px;
+       
+        line-height: normal;
+    }
+    .bttnfont{
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    /* .homepageImage{
+        width: 350px;
+       height: 354.43px;
+    }
+    .aboutme{
+        width: 350px;
+       height: 354.43px;
+       
+    } */
+}
+
+
+@media (min-width:400px) {
+    .menunav{
+        position: fixed;
+        top:15%;
+        left:20%;
+       }
+      
+}
