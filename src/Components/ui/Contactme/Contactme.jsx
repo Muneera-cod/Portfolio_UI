@@ -8,7 +8,7 @@ function Contactme() {
         <p className='text-[#E9EFFF] text-[20px] tracking-widest font-[600] uppercase'>contact me</p>
         <h1 className='text-[50px] font-[700] leading-[50px] text-white'>Request Free Consultancy</h1>
       </div>
-      <div className='flex sm:flex-col md:flex-row gap-[30px] items-start '>
+      <div className='flex sm:flex-col md:flex-row gap-[30px] items-start'>
         <div className='flex flex-col  bg-white p-[30px] gap-[40px] w-full rounded-[15px]'>
            <div>
                <p className='text-[16px] leading-[20px] font-[700]'>Hotline 24/7</p>

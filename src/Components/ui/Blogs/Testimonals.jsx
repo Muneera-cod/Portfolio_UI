@@ -45,7 +45,7 @@ function Testimonals() {
         <div className='flex gap-[30px]  md:justify-center items-center overflow-hidden'>
           {peoples.map((item)=>{
             return(
-          <div key={item.id} className='flex flex-col gap-[20px] px-[20px] py-[30px]  border-2 border-[#DDD] hover:border-markClr hover:bg-markClr hover:text-white rounded-[15px]  justify-center items-center min-w-72 max-w-72'>
+          <div key={item.id} className='flex flex-col gap-[20px] px-[20px] py-[30px]  border-2 border-[#DDD] hover:border-markClr hover:bg-markClr hover:text-white rounded-[15px]  justify-center items-center  sm:min-w-[260px] md:min-w-72 max-w-72'>
              <div>
                 <img src={item.img}></img>
              </div>
